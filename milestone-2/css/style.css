@@ -8,6 +8,10 @@ body{
   background-color: black;
 }
 
+.hide{
+  display: none;
+}
+
 .main-container{
   height: 100vh;
   display: flex;
@@ -19,8 +23,8 @@ body{
 .container-eb{
   width: 60%;
   height: 50%;
-  background-color: black;
   border: 25px solid white;
+  background-color: blue;
 }
 
 .contImg{
@@ -45,10 +49,12 @@ body{
   transform: translateX(-50%);
   background-color: rgba(255, 255, 255, 0.256);
   width: 25px;
+  height: 25px;
   border-radius: 50%;
   text-align: center;
   line-height: 25px;
   cursor: pointer;
+  z-index: 10;
 }
 
 .btn-arrow:hover{
@@ -67,6 +73,6 @@ body{
   display: none;
 }
 
-object.active{
+object .active{
   display: block;
 }  
