@@ -12,8 +12,7 @@ const images = [
 let imageTags = ``;
 
 //contenitore
-const contImg = document.querySelector(`contImg`);
-
+const contImg = document.querySelector(`.objects-wrapper`);
 //ciclare array
 
 for(let i = 0; i < images.length; i++){
