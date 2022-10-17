@@ -5,3 +5,26 @@ Al termine di questa fase ci ritroveremo con lo stesso slider stilato nella mile
 
 console.log(`ciaooooo`);
 
+const images = [
+  `01.jpg`, `02.jpg`, `03.jpg`, `04.jpg`, `05.jpg`
+];
+
+let imageTags = ``;
+
+//contenitore
+const contImg = document.querySelector(`contImg`);
+
+//ciclare array
+
+for(let i = 0; i < images.length; i++){
+  imageTags += `
+  <img class="object" src="img/${images[i]}" alt="${images[i]}">
+  `;
+}
+
+let counterImages = 0
+
+//aggiunta tag nel cont-img
+contImg.innerHTML += imageTags;
+
+

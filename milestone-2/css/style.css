@@ -23,12 +23,12 @@ body{
   border: 25px solid white;
 }
 
-.cont-img{
+.contImg{
   height: 100%;
   position: relative;
 }
 
-.cont-img img{
+.contImg img{
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -57,3 +57,11 @@ body{
 .btn-arrow.bottom{
   bottom: 10px;
 }
+
+.object{
+  display: none;
+}
+
+.object.active{
+  display: block;
+}  
