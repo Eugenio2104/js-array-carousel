@@ -73,6 +73,6 @@ body{
   display: none;
 }
 
-object .active{
+.object.active{
   display: block;
 }  
